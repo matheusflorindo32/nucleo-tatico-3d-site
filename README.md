@@ -26,7 +26,7 @@
 
 ```bash
 # Clone
-git clone https://github.com/Cateano93/nucleo-tatico-3d-site.git
+git clone https://github.com/matheusflorindo32/nucleo-tatico-3d-site.git
 cd nucleo-tatico-3d-site
 
 # Install
@@ -88,7 +88,7 @@ src/
 
 ## 📄 Licença
 
-MIT © [Matheus Florindo](https://github.com/Cateano93)
+MIT © [Matheus Florindo](https://github.com/matheusflorindo32)
 
 ---
 
