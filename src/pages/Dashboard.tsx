@@ -31,21 +31,12 @@ import {
   Bell,
   HelpCircle,
   X,
-  CheckCircle,
-  AlertCircle,
-  Play,
-  Pause,
   RefreshCw,
   Home,
   FolderOpen,
   Archive,
-  HardDrive,
   Upload,
   Share2,
-  Trash2,
-  Edit,
-  Copy,
-  MoreVertical
 } from 'lucide-react';
 import { MainScene } from '../components/3d/MainScene';
 import toast from 'react-hot-toast';
