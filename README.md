@@ -1,97 +1,89 @@
-# 🎯 Núcleo Tático — 3D Interactive Platform
+<div align="center">
 
-> Plataforma educacional imersiva com interface 3D para concursos públicos e treinamento tático.
+# NÚCLEO TÁTICO 3D
 
-![Status](https://img.shields.io/badge/status-active-success)
-![React](https://img.shields.io/badge/React-18.3-61DAFB)
-![Three.js](https://img.shields.io/badge/Three.js-0.164-000000)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6)
-![Vite](https://img.shields.io/badge/Vite-5.4-646CFF)
-![License](https://img.shields.io/badge/license-MIT-blue)
+### Protótipo de experiência educacional imersiva em React e Three.js
+
+[![Status](https://img.shields.io/badge/status-protótipo%20funcional-F59E0B?style=flat-square)](#status-do-projeto)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=111827)](https://react.dev/)
+[![Three.js](https://img.shields.io/badge/Three.js-WebGL-111827?style=flat-square&logo=threedotjs)](https://threejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Licença](https://img.shields.io/badge/licença-MIT-16A34A?style=flat-square)](LICENSE)
+
+</div>
 
 ---
 
-## ✨ Features
+## Visão geral
 
-- 🎮 **Cena 3D interativa** com Three.js + React Three Fiber
-- 🌊 **Efeitos visuais** Bloom, Chromatic Aberration, Vignette
-- 🔐 **Autenticação** completa com login/registro
-- 📊 **Dashboard** com visualização de arquivos e projetos
-- 🎨 **UI moderna** com Tailwind CSS + Framer Motion
-- 📱 **Design responsivo** com suporte mobile
-- 🔍 **Busca e filtros** em tempo real
-- 📦 **Download** de arquivos e projetos
+O **Núcleo Tático 3D** explora uma interface imersiva para navegação em conteúdos e projetos educacionais. O protótipo combina React, Three.js, animações e componentes responsivos para testar uma linguagem visual própria do ecossistema Núcleo Tático.
 
-## 🚀 Quick Start
+## Experiência implementada
+
+- cena 3D com React Three Fiber;
+- efeitos de pós-processamento;
+- telas de login e dashboard;
+- busca e filtros na interface;
+- visualização de arquivos e projetos;
+- animações com Framer Motion e GSAP;
+- layout responsivo;
+- estado global com Zustand.
+
+## Stack
+
+| Camada | Tecnologias |
+|---|---|
+| Interface | React, TypeScript, Tailwind CSS |
+| 3D | Three.js, React Three Fiber, Drei |
+| Movimento | Framer Motion, GSAP |
+| Estado e rotas | Zustand, React Router |
+| Formulários e HTTP | React Hook Form, Axios |
+| Build | Vite |
+
+## Execução local
 
 ```bash
-# Clone
 git clone https://github.com/matheusflorindo32/nucleo-tatico-3d-site.git
 cd nucleo-tatico-3d-site
-
-# Install
 npm install
-
-# Dev server
 npm run dev
+```
 
-# Build
+Outros comandos:
+
+```bash
+npm run type-check
+npm run lint
 npm run build
-
-# Preview
 npm run preview
 ```
 
-## 🔗 Acesso
+## Estrutura principal
 
-| URL | Descrição |
-|-----|-----------|
-| `http://localhost:3000` | Servidor de desenvolvimento |
-| `/login` | Página de autenticação |
-| `/dashboard` | Dashboard 3D interativo |
-
-### Credenciais de Teste
-
-```
-Email: admin@nucleotatico.com
-Senha: Demo@1234
-```
-
-## 🏗️ Estrutura
-
-```
+```text
 src/
-├── components/3d/     # Componentes Three.js (MainScene, efeitos)
-├── pages/             # Páginas (Login, Dashboard)
-├── hooks/             # Hooks personalizados
-├── utils/             # Utilitários
-└── App.tsx            # Entry point
+├── components/3d/
+├── pages/
+├── hooks/
+├── utils/
+└── App.tsx
 ```
 
-## 🛠️ Stack
+## Status do projeto
 
-| Tecnologia | Versão | Uso |
-|------------|--------|-----|
-| React | 18.3 | UI Framework |
-| TypeScript | 5.9 | Type Safety |
-| Three.js | 0.164 | 3D Engine |
-| React Three Fiber | 8.18 | React + Three.js |
-| React Three Drei | 9.122 | Three.js helpers |
-| Framer Motion | 10.18 | Animações |
-| Tailwind CSS | 3.4 | Estilização |
-| Vite | 5.4 | Build tool |
-| Zustand | 4.5 | Estado global |
-| React Router | 6.30 | Roteamento |
-| Axios | 1.15 | HTTP client |
-| GSAP | 3.15 | Animações avançadas |
-| Lucide React | 0.309 | Ícones |
+Este repositório é um **protótipo de interface e arquitetura visual**, não a plataforma pública principal. A experiência institucional publicada está disponível em [nucleotatico.com](https://www.nucleotatico.com).
 
-## 📄 Licença
+Credenciais de demonstração presentes no projeto devem ser usadas apenas em ambiente local e não representam autenticação de produção.
 
-MIT © [Matheus Florindo](https://github.com/matheusflorindo32)
+## Competências demonstradas
+
+`React` · `TypeScript` · `Three.js` · `WebGL` · `Motion Design` · `UX Responsiva`
 
 ---
 
-<p align="center">
-  ⚡ ADSUMUS — Sempre à disposição! 🇧🇷
-</p>
+<div align="center">
+
+Desenvolvido por **Matheus Florindo de Deus**  
+[Núcleo Tático](https://www.nucleotatico.com) · [Tropa Científica](https://www.tropacientifica.com) · [Portfólio GitHub](https://github.com/matheusflorindo32)
+
+</div>
